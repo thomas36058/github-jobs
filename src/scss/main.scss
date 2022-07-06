@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "settings/normalize";
+
+@import "components/front-page";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
