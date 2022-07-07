@@ -2,10 +2,20 @@
 
 @import "settings/normalize";
 
+@import "components/header";
 @import "components/front-page";
+@import "components/single";
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #F6F7FB;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 ul {
@@ -14,4 +24,17 @@ ul {
 
 p {
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black !important;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+strong {
+    font-weight: 700;
 }

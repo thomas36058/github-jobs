@@ -61,6 +61,7 @@ function custom_post_type() {
             'public'      => true,
             'has_archive' => true,
             'rewrite'     => array( 'slug' => 'jobs' ),
+            'supports' => array( 'title', 'editor', 'thumbnail',)
         )
 	);
 }
@@ -85,3 +86,8 @@ register_taxonomy( 'times', array('jobs'), array(
 );
 
 register_taxonomy_for_object_type( 'times', 'jobs' );
+
+/* Function which displays your post date in time ago format */
+function meks_time_ago() {
+	return human_time_diff( get_the_time( 'U' ), current_time( 'timestamp' ) ).' '.__( 'ago' );
+}

@@ -1,4 +1,4 @@
-# Thomas De Grava
+# GitHub Jobs
 
 **Autor:** Thomas De Grava
 
@@ -8,7 +8,9 @@
 
 ## Instalation
 
+This is a custom Wordpress Theme, so do you need to clone this repository to themes folder
+
 ```
-$ cd github-jobs
+$ cd githubjobs
 $ npm install
 ```

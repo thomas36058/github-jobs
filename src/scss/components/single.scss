@@ -1,0 +1,99 @@
+#single-page {
+  aside {
+    font-family: 'Poppins';
+
+    .back-button {
+      display: flex;
+      align-items: center;
+      margin-bottom: 36px;
+
+      a {
+        color: #1E86FF !important;
+        font-weight: 500;
+        font-size: 14px;
+      }
+
+      .material-icons {
+        font-size: 1rem;
+        color: #1E86FF !important;
+      }
+    }
+  }
+
+  .content {
+    font-family: 'Roboto';
+
+    h1 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 24px;
+      color: #334680;
+    }
+
+    .time {
+      color: #334680;
+      border-radius: 0.25rem;
+      border: 1px solid #334680;
+      padding: 6px;
+      font-weight: 700;
+      font-size: 12px;
+      width: fit-content;
+      margin-left: 1rem;
+    }
+
+    .date {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      color: #B7BCCE;
+      font-weight: 500;
+      font-size: 12px;
+
+      .material-icons {
+        font-size: 1rem;
+      }
+    }
+
+    .company {
+      margin-top: 32px;
+
+      img {
+        max-width: 42px;
+        height: fit-content;
+        margin-right: 12px;
+        border-radius: 0.25rem;
+      }
+
+      .name {
+        color: #334680;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+      }
+
+      .city {
+        color: #B9BDCF;
+        font-weight: 500;
+        font-size: 12px;
+        margin-top: 0.25rem;
+        display: flex;
+        align-items: center;
+
+        .material-icons {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .content-text {
+      margin-top: 32px;
+      color: #334680;
+      font-size: 1rem;
+      line-height: 24px;
+
+      p {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
