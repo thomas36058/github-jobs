@@ -2,6 +2,8 @@
 
 Application where you can find for jobs and filter them
 
+Live Preview: https://dev-github-jobs.pantheonsite.io/
+
 ![Github Jobs](https://github.com/thomas36058/github-jobs/blob/master/files/githubjobs.png)
 
 ## Installation
