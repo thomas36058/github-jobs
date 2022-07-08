@@ -1,16 +1,25 @@
 # GitHub Jobs
 
-**Autor:** Thomas De Grava
+Application where you can find for jobs and filter them
 
-**Version:** 1.0
+![Github Jobs](https://github.com/thomas36058/github-jobs/blob/master/files/githubjobs.png)
 
-**Tags:** laravel-mix, wordpress
+## Installation
 
-## Instalation
+This is a custom Wordpress Theme, so do you need to clone this repository to /themes on wordpress application. 
 
-This is a custom Wordpress Theme, so do you need to clone this repository to themes folder
+After this, import from /files the plugins, uploads and database(dump.sql).
 
+When you are done, run npm install on theme folder
+
+```bash
+npm install
 ```
-$ cd githubjobs
-$ npm install
+
+## Usage
+
+To compile all css and js files you need to run this line, because this application use webpack.
+
+```bash
+npm run watch
 ```
